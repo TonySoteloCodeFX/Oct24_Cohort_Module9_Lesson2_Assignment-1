@@ -1,8 +1,18 @@
 h1 {
-    color:#19345E;
+    color:#19345e;
     font-family: "Anton", serif;
+    font-size: 100px;
+    z-index: 2;
+}
+
+.name_offset{
+    font-family: "Anton", serif;
+    color: white;
+    z-index: 1;
+    font-size: 100px;
+    position: absolute;
+    right: 656px;
     text-shadow:#00ffee 0px 2px 20px;
-    font-size: 60px;
 }
 
 h3 {
@@ -11,8 +21,19 @@ h3 {
     position: relative;
     bottom: 50px;
     font-family: "Anton", serif;
-    text-shadow:#00ffee 0px 2px 12px;
     font-size: 30px;
+    z-index: 2;
+}
+
+h4 {
+    font-family: "Anton", serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 307px;
+    right: 696px;
+    z-index: 1;
+    text-shadow:#00ffee 0px 2px 12px;
 }
 
 .services_container {
